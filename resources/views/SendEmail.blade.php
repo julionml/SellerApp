@@ -15,9 +15,7 @@
         PaypalAddress: {{$PaypalAddress}}
     </p>
 
-    <p>
-        CloudCoins: {{$CloudCoins}}
-    </p>
+
 
 
 

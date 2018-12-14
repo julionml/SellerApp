@@ -62,7 +62,7 @@ class SalesController extends Controller
         Mail::send('SendEmail',array(
             'EmailAddress' => $request->get('EmailAddress'),
             'PaypalAddress'=>$request->get('PaypalAddress'),
-            'CloudCoins' => $request->get('Cloudcoins'),
+         //   'CloudCoins' => $request->get('Cloudcoins'),
         ), function ($message) use($request) {
 
             $message->from($request->get('EmailAddress'));
