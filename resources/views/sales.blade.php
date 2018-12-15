@@ -66,7 +66,7 @@
 
             </div>
             <div class="col-md-6">
-                <form class="m-t-15"  method="POST" action="{{url('/')}}" >
+                <form class="m-t-15" action="{{url('/')}}" method="POST" enctype="multipart/form-data">
 
                     <input type="hidden" name="_token" value="{!! csrf_token() !!}">
 

@@ -8,11 +8,11 @@
     <h2 class="text-center">Sale info </h2>
 
         <p>
-            Email: {{$EmailAddress}}
+            Email: {{$data['EmailAddress']}}
         </p>
 
     <p>
-        PaypalAddress: {{$PaypalAddress}}
+        PaypalAddress: {{$data['PaypalAddress']}}
     </p>
 
 
